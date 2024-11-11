@@ -1,6 +1,6 @@
 # MedMNIST Diffusion Foundation
 
-This project implements a diffusion model for various datasets from the MedMNIST collection. The code is structured to support training, sampling, and evaluating diffusion-based synthetic data generation for multiple medical imaging datasets. The project includes optional Weights & Biases logging for monitoring training metrics and supports easy integration with different MedMNIST datasets.
+This project implements a diffusion model for various datasets from the [MedMNIST collection](https://medmnist.com/). The code is structured to support training, sampling, and evaluating diffusion-based synthetic data generation for multiple medical imaging datasets. The project includes optional Weights & Biases logging for monitoring training metrics and supports easy integration with different MedMNIST datasets.
 
 ## Project Structure
 
@@ -14,17 +14,34 @@ This project implements a diffusion model for various datasets from the MedMNIST
 
 ## Installation
 
-1. Clone the repository and navigate to the project directory:
-
+1. Create and activate a new conda environment
    ```bash
-   git clone https://github.com/yourusername/medmnist_diffusion_foundation.git
-   cd medmnist_diffusion_foundation
+   conda create --name medmnist_diffusion_foundation_env
+   conda activate medmnist_diffusion_foundation_env
+   ```
+2. Use conda to python, pip, ffmpeg (for animations), and cuda toolkit 12.4.1
+   ```bash
+   conda install python=3.12 pip ffmpeg
+   conda install nvidia/label/cuda-12.4.1::cuda-toolkit
+   ```
+3. Install torch with support for cuda tool kit 12.4
+   ```bash
+   pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+   ```
+   
+4. Install additional python packages
+   ```bash
+   pip3 install numpy matplotlib torch-ema pydicom nibabel diffusers wandb
    ```
 
-2. Install the required dependencies:
-
+5. Install the Generative Medical Imaging (gmi) python package
    ```bash
-   pip install -r requirements.txt
+   pip3 install git+https://github.com/Generative-Medical-Imaging-Lab/gmi.git
+   ```
+
+6. Install the MedMNIST dataset, using the most recent version we have tested
+   ```bash
+   pip install git+https://github.com/MedMNIST/MedMNIST.git@8cce68f261f993bd0450edc0200498a0691362c2
    ```
 
 ## Usage
