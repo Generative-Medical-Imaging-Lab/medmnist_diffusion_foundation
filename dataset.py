@@ -1,57 +1,26 @@
 import medmnist
-import torch
 from torchvision import transforms
+import torch
 
-def initialize_datasets_and_dataloaders(dataset_name, batch_size):
+medmnist_mapping = {
+    'PathMNIST': (medmnist.PathMNIST, (3, 28, 28), 1, 'weights/pathmnist_model.pth'),
+    'ChestMNIST': (medmnist.ChestMNIST, (1, 28, 28), 14, 'weights/chestmnist_model.pth'),
+    'BloodMNIST': (medmnist.BloodMNIST, (3, 28, 28), 1, 'weights/bloodmnist_model.pth'),
+    'DermaMNIST': (medmnist.DermaMNIST, (3, 28, 28), 1, 'weights/dermamnist_model.pth')
+}
 
-    if dataset_name == 'PathMNIST':
-        medmnist_dataset = medmnist.PathMNIST
-        image_shape = (3, 28, 28)
-    elif dataset_name == 'ChestMNIST':
-        medmnist_dataset = medmnist.ChestMNIST
-        image_shape = (1, 28, 28)
-    elif dataset_name == 'BloodMNIST':
-        medmnist_dataset = medmnist.BloodMNIST
-        image_shape = (3, 28, 28)
-    elif dataset_name == 'DermaMNIST':
-        medmnist_dataset = medmnist.DermaMNIST
-        image_shape = (3, 28, 28)
+def initialize_datasets(dataset_name):
+    medmnist_dataset, image_shape, y_dim, model_path = medmnist_mapping.get(dataset_name, (None, None, None))
+    if medmnist_dataset is None:
+        raise ValueError(f"Dataset '{dataset_name}' not supported.")
 
-    transform = transforms.Compose([
-                    transforms.ToTensor()
-                ])
+    transform = transforms.Compose([transforms.ToTensor()])
 
-    medmnist_train_dataset = medmnist_dataset(
-                                split='train',
-                                transform=transform,
-                                download=True)
+    train_dataset = medmnist_dataset(split='train', transform=transform, download=True)
+    val_dataset = medmnist_dataset(split='val', transform=transform, download=True)
+    test_dataset = medmnist_dataset(split='test', transform=transform, download=True)
 
-    medmnist_val_dataset = medmnist_dataset(
-                                split='val',
-                                transform=transform,
-                                download=True)
-    
-    medmnist_test_dataset = medmnist_dataset(
-                                split='test',
-                                transform=transform,
-                                download=True)
+    return train_dataset, val_dataset, test_dataset, image_shape, y_dim, model_path
 
-    medmnist_train_dataloader = torch.utils.data.DataLoader(
-                                                    medmnist_train_dataset, 
-                                                    batch_size=batch_size, 
-                                                    shuffle=True,
-                                                    num_workers=4)
-
-    medmnist_val_dataloader = torch.utils.data.DataLoader(
-                                                    medmnist_val_dataset,
-                                                    batch_size=batch_size,
-                                                    shuffle=True,
-                                                    num_workers=4)
-    
-    medmnist_test_dataloader = torch.utils.data.DataLoader(
-                                                    medmnist_test_dataset,
-                                                    batch_size=batch_size,
-                                                    shuffle=True,
-                                                    num_workers=4)
-    
-    return medmnist_train_dataset, medmnist_val_dataset, medmnist_test_dataset, medmnist_train_dataloader, medmnist_val_dataloader, medmnist_test_dataloader, image_shape
+def create_dataloader(dataset, batch_size, shuffle=True):
+    return torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=shuffle, num_workers=4)

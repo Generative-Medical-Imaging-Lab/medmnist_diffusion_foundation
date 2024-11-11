@@ -1,0 +1,310 @@
+Using downloaded and verified file: /home/local/PARTNERS/mt1178/.medmnist/bloodmnist.npz
+Using downloaded and verified file: /home/local/PARTNERS/mt1178/.medmnist/bloodmnist.npz
+Using downloaded and verified file: /home/local/PARTNERS/mt1178/.medmnist/bloodmnist.npz
+Epoch 1/100, Train Loss: 0.4360, Val Loss: 0.4168
+Epoch 2/100, Train Loss: 0.3832, Val Loss: 0.4523
+Epoch 3/100, Train Loss: 0.3669, Val Loss: 0.4132
+Epoch 4/100, Train Loss: 0.3585, Val Loss: 0.4394
+Epoch 5/100, Train Loss: 0.3477, Val Loss: 0.4938
+Epoch 6/100, Train Loss: 0.3132, Val Loss: 0.3713
+Epoch 7/100, Train Loss: 0.2416, Val Loss: 0.2373
+Epoch 8/100, Train Loss: 0.1607, Val Loss: 0.1527
+Epoch 9/100, Train Loss: 0.0946, Val Loss: 0.1097
+Epoch 10/100, Train Loss: 0.0762, Val Loss: 0.0879
+Epoch 11/100, Train Loss: 0.0663, Val Loss: 0.0851
+Epoch 12/100, Train Loss: 0.0608, Val Loss: 0.1252
+Epoch 13/100, Train Loss: 0.0602, Val Loss: 0.0967
+Epoch 14/100, Train Loss: 0.0542, Val Loss: 0.1008
+Epoch 15/100, Train Loss: 0.0517, Val Loss: 0.0597
+Epoch 16/100, Train Loss: 0.0511, Val Loss: 0.0540
+Epoch 17/100, Train Loss: 0.0494, Val Loss: 0.0765
+Epoch 18/100, Train Loss: 0.0467, Val Loss: 0.0613
+Epoch 19/100, Train Loss: 0.0508, Val Loss: 0.0719
+Epoch 20/100, Train Loss: 0.0471, Val Loss: 0.0555
+Epoch 21/100, Train Loss: 0.0463, Val Loss: 0.0772
+Epoch 22/100, Train Loss: 0.0466, Val Loss: 0.0572
+Epoch 23/100, Train Loss: 0.0457, Val Loss: 0.0568
+Epoch 24/100, Train Loss: 0.0446, Val Loss: 0.0820
+Epoch 25/100, Train Loss: 0.0444, Val Loss: 0.0536
+Epoch 26/100, Train Loss: 0.0442, Val Loss: 0.0457
+Epoch 27/100, Train Loss: 0.0452, Val Loss: 0.0619
+Epoch 28/100, Train Loss: 0.0410, Val Loss: 0.0438
+Epoch 29/100, Train Loss: 0.0430, Val Loss: 0.0523
+Epoch 30/100, Train Loss: 0.0414, Val Loss: 0.0675
+Epoch 31/100, Train Loss: 0.0417, Val Loss: 0.0514
+Epoch 32/100, Train Loss: 0.0407, Val Loss: 0.0519
+Epoch 33/100, Train Loss: 0.0432, Val Loss: 0.0495
+Epoch 34/100, Train Loss: 0.0412, Val Loss: 0.0504
+Epoch 35/100, Train Loss: 0.0414, Val Loss: 0.0458
+Epoch 36/100, Train Loss: 0.0386, Val Loss: 0.0719
+Epoch 37/100, Train Loss: 0.0394, Val Loss: 0.0524
+Epoch 38/100, Train Loss: 0.0390, Val Loss: 0.0503
+Epoch 39/100, Train Loss: 0.0386, Val Loss: 0.0470
+Epoch 40/100, Train Loss: 0.0397, Val Loss: 0.0425
+Epoch 41/100, Train Loss: 0.0376, Val Loss: 0.0515
+Epoch 42/100, Train Loss: 0.0364, Val Loss: 0.0451
+Epoch 43/100, Train Loss: 0.0373, Val Loss: 0.0431
+Epoch 44/100, Train Loss: 0.0399, Val Loss: 0.0387
+Epoch 45/100, Train Loss: 0.0372, Val Loss: 0.0455
+Epoch 46/100, Train Loss: 0.0372, Val Loss: 0.0490
+Epoch 47/100, Train Loss: 0.0368, Val Loss: 0.0448
+Epoch 48/100, Train Loss: 0.0365, Val Loss: 0.0391
+Epoch 49/100, Train Loss: 0.0370, Val Loss: 0.0368
+Epoch 50/100, Train Loss: 0.0382, Val Loss: 0.0440
+Epoch 51/100, Train Loss: 0.0370, Val Loss: 0.0446
+Epoch 52/100, Train Loss: 0.0377, Val Loss: 0.0445
+Epoch 53/100, Train Loss: 0.0353, Val Loss: 0.0367
+Epoch 54/100, Train Loss: 0.0372, Val Loss: 0.0477
+Epoch 55/100, Train Loss: 0.0356, Val Loss: 0.0432
+Epoch 56/100, Train Loss: 0.0371, Val Loss: 0.0450
+Epoch 57/100, Train Loss: 0.0358, Val Loss: 0.0385
+Epoch 58/100, Train Loss: 0.0357, Val Loss: 0.0430
+Epoch 59/100, Train Loss: 0.0357, Val Loss: 0.0482
+Epoch 60/100, Train Loss: 0.0356, Val Loss: 0.0483
+Epoch 61/100, Train Loss: 0.0367, Val Loss: 0.0437
+Epoch 62/100, Train Loss: 0.0354, Val Loss: 0.0390
+Epoch 63/100, Train Loss: 0.0342, Val Loss: 0.0463
+Epoch 64/100, Train Loss: 0.0352, Val Loss: 0.0499
+Epoch 65/100, Train Loss: 0.0346, Val Loss: 0.0475
+Epoch 66/100, Train Loss: 0.0355, Val Loss: 0.0471
+Epoch 67/100, Train Loss: 0.0353, Val Loss: 0.0388
+Epoch 68/100, Train Loss: 0.0355, Val Loss: 0.0382
+Epoch 69/100, Train Loss: 0.0346, Val Loss: 0.0401
+Epoch 70/100, Train Loss: 0.0337, Val Loss: 0.0394
+Epoch 71/100, Train Loss: 0.0354, Val Loss: 0.0419
+Epoch 72/100, Train Loss: 0.0357, Val Loss: 0.0429
+Epoch 73/100, Train Loss: 0.0345, Val Loss: 0.0421
+Epoch 74/100, Train Loss: 0.0351, Val Loss: 0.0482
+Epoch 75/100, Train Loss: 0.0370, Val Loss: 0.0612
+Epoch 76/100, Train Loss: 0.0355, Val Loss: 0.0457
+Epoch 77/100, Train Loss: 0.0330, Val Loss: 0.0683
+Epoch 78/100, Train Loss: 0.0350, Val Loss: 0.0428
+Epoch 79/100, Train Loss: 0.0327, Val Loss: 0.0359
+Epoch 80/100, Train Loss: 0.0361, Val Loss: 0.0379
+Epoch 81/100, Train Loss: 0.0351, Val Loss: 0.0424
+Epoch 82/100, Train Loss: 0.0340, Val Loss: 0.0529
+Epoch 83/100, Train Loss: 0.0337, Val Loss: 0.0380
+Epoch 84/100, Train Loss: 0.0343, Val Loss: 0.0347
+Epoch 85/100, Train Loss: 0.0347, Val Loss: 0.0504
+Epoch 86/100, Train Loss: 0.0339, Val Loss: 0.0314
+Epoch 87/100, Train Loss: 0.0337, Val Loss: 0.0352
+Epoch 88/100, Train Loss: 0.0340, Val Loss: 0.0366
+Epoch 89/100, Train Loss: 0.0352, Val Loss: 0.0430
+Epoch 90/100, Train Loss: 0.0336, Val Loss: 0.0402
+Epoch 91/100, Train Loss: 0.0341, Val Loss: 0.0415
+Epoch 92/100, Train Loss: 0.0357, Val Loss: 0.0378
+Epoch 93/100, Train Loss: 0.0326, Val Loss: 0.0374
+Epoch 94/100, Train Loss: 0.0337, Val Loss: 0.0389
+Epoch 95/100, Train Loss: 0.0341, Val Loss: 0.0349
+Epoch 96/100, Train Loss: 0.0335, Val Loss: 0.0532
+Epoch 97/100, Train Loss: 0.0340, Val Loss: 0.0395
+Epoch 98/100, Train Loss: 0.0330, Val Loss: 0.0420
+Epoch 99/100, Train Loss: 0.0334, Val Loss: 0.0398
+Epoch 100/100, Train Loss: 0.0321, Val Loss: 0.0360
+Traceback (most recent call last):
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/project/medmnist_diffusion_foundation/main.py", line 3, in <module>
+    from dataset import medmnist_mapping, initialize_datasets, create_dataloader
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/project/medmnist_diffusion_foundation/dataset.py", line 1, in <module>
+    import medmnist
+ModuleNotFoundError: No module named 'medmnist'
+/mnt/IRB2021P002249-DATA/matthew.tivnan/project/medmnist_diffusion_foundation/main.py:32: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  diffusion_model.load_state_dict(torch.load(model_save_path, map_location=device))
+
+--- Processing PathMNIST on device cuda:0 ---
+Using downloaded and verified file: /home/local/PARTNERS/mt1178/.medmnist/pathmnist.npz
+Using downloaded and verified file: /home/local/PARTNERS/mt1178/.medmnist/pathmnist.npz
+Using downloaded and verified file: /home/local/PARTNERS/mt1178/.medmnist/pathmnist.npz
+Training diffusion model for PathMNIST...
+/mnt/IRB2021P002249-DATA/matthew.tivnan/project/medmnist_diffusion_foundation/main.py:32: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  diffusion_model.load_state_dict(torch.load(model_save_path, map_location=device))
+
+--- Processing ChestMNIST on device cuda:3 ---
+Using downloaded and verified file: /home/local/PARTNERS/mt1178/.medmnist/chestmnist.npz
+Using downloaded and verified file: /home/local/PARTNERS/mt1178/.medmnist/chestmnist.npz
+Using downloaded and verified file: /home/local/PARTNERS/mt1178/.medmnist/chestmnist.npz
+Training diffusion model for ChestMNIST...
+Training, Epoch 1/1, Batch 1/100, Loss: 0.4343
+Training, Epoch 1/1, Batch 2/100, Loss: 1.1763
+Training, Epoch 1/1, Batch 3/100, Loss: 1.4506
+Training, Epoch 1/1, Batch 4/100, Loss: 0.5361
+Training, Epoch 1/1, Batch 5/100, Loss: 0.4381
+Training, Epoch 1/1, Batch 6/100, Loss: 0.3275
+Training, Epoch 1/1, Batch 7/100, Loss: 0.3533
+Training, Epoch 1/1, Batch 8/100, Loss: 0.4697
+Training, Epoch 1/1, Batch 9/100, Loss: 0.2943
+Training, Epoch 1/1, Batch 10/100, Loss: 0.2796
+Training, Epoch 1/1, Batch 11/100, Loss: 0.5773
+Training, Epoch 1/1, Batch 12/100, Loss: 0.3757
+Training, Epoch 1/1, Batch 13/100, Loss: 0.4544
+Training, Epoch 1/1, Batch 14/100, Loss: 0.3849
+Training, Epoch 1/1, Batch 15/100, Loss: 0.2983
+Training, Epoch 1/1, Batch 16/100, Loss: 0.5814
+Training, Epoch 1/1, Batch 17/100, Loss: 0.4115
+Training, Epoch 1/1, Batch 18/100, Loss: 0.5706
+Training, Epoch 1/1, Batch 19/100, Loss: 0.2507
+Training, Epoch 1/1, Batch 20/100, Loss: 0.3231
+Training, Epoch 1/1, Batch 21/100, Loss: 0.4276
+Training, Epoch 1/1, Batch 22/100, Loss: 0.2875
+Training, Epoch 1/1, Batch 23/100, Loss: 0.3475
+Training, Epoch 1/1, Batch 24/100, Loss: 0.4483
+Training, Epoch 1/1, Batch 25/100, Loss: 0.3137
+Training, Epoch 1/1, Batch 26/100, Loss: 0.3855
+Training, Epoch 1/1, Batch 27/100, Loss: 0.5100
+Training, Epoch 1/1, Batch 28/100, Loss: 0.3867
+Training, Epoch 1/1, Batch 29/100, Loss: 0.3282
+Training, Epoch 1/1, Batch 30/100, Loss: 0.3493
+Training, Epoch 1/1, Batch 31/100, Loss: 0.5123
+Training, Epoch 1/1, Batch 32/100, Loss: 0.4408
+Training, Epoch 1/1, Batch 33/100, Loss: 0.2091
+Training, Epoch 1/1, Batch 34/100, Loss: 0.3559
+Training, Epoch 1/1, Batch 35/100, Loss: 0.4046
+Training, Epoch 1/1, Batch 36/100, Loss: 0.6024
+Training, Epoch 1/1, Batch 37/100, Loss: 0.2912
+Training, Epoch 1/1, Batch 38/100, Loss: 0.2506
+Training, Epoch 1/1, Batch 39/100, Loss: 0.3472
+Training, Epoch 1/1, Batch 40/100, Loss: 0.4083
+Training, Epoch 1/1, Batch 41/100, Loss: 0.5836
+Training, Epoch 1/1, Batch 42/100, Loss: 0.3419
+Training, Epoch 1/1, Batch 43/100, Loss: 0.4424
+Training, Epoch 1/1, Batch 44/100, Loss: 0.5720
+Training, Epoch 1/1, Batch 45/100, Loss: 0.4570
+Training, Epoch 1/1, Batch 46/100, Loss: 0.3389
+Training, Epoch 1/1, Batch 47/100, Loss: 0.3658
+Training, Epoch 1/1, Batch 48/100, Loss: 0.3498
+Training, Epoch 1/1, Batch 49/100, Loss: 0.2576
+Training, Epoch 1/1, Batch 50/100, Loss: 0.3332
+Training, Epoch 1/1, Batch 51/100, Loss: 0.4439
+Training, Epoch 1/1, Batch 52/100, Loss: 0.3077
+Training, Epoch 1/1, Batch 53/100, Loss: 0.3691
+Training, Epoch 1/1, Batch 54/100, Loss: 0.3264
+Training, Epoch 1/1, Batch 55/100, Loss: 0.5097
+Training, Epoch 1/1, Batch 56/100, Loss: 0.4925
+Training, Epoch 1/1, Batch 57/100, Loss: 0.4476
+Training, Epoch 1/1, Batch 58/100, Loss: 0.6181
+Training, Epoch 1/1, Batch 59/100, Loss: 0.3890
+Training, Epoch 1/1, Batch 60/100, Loss: 0.4563
+Training, Epoch 1/1, Batch 61/100, Loss: 0.4008
+Training, Epoch 1/1, Batch 62/100, Loss: 0.5005
+Training, Epoch 1/1, Batch 63/100, Loss: 0.4282
+Training, Epoch 1/1, Batch 64/100, Loss: 0.1660
+Training, Epoch 1/1, Batch 65/100, Loss: 0.6146
+Training, Epoch 1/1, Batch 66/100, Loss: 0.3769
+Training, Epoch 1/1, Batch 67/100, Loss: 0.2915
+Training, Epoch 1/1, Batch 68/100, Loss: 0.3863
+Training, Epoch 1/1, Batch 69/100, Loss: 0.4345
+Training, Epoch 1/1, Batch 70/100, Loss: 0.3389
+Training, Epoch 1/1, Batch 71/100, Loss: 0.3605
+Training, Epoch 1/1, Batch 72/100, Loss: 0.4476
+Training, Epoch 1/1, Batch 73/100, Loss: 0.4671
+Training, Epoch 1/1, Batch 74/100, Loss: 0.3677
+Training, Epoch 1/1, Batch 75/100, Loss: 0.6566
+Training, Epoch 1/1, Batch 76/100, Loss: 0.4513
+Training, Epoch 1/1, Batch 77/100, Loss: 0.5276
+Training, Epoch 1/1, Batch 78/100, Loss: 0.2629
+Training, Epoch 1/1, Batch 79/100, Loss: 0.5570
+Training, Epoch 1/1, Batch 80/100, Loss: 0.5130
+Training, Epoch 1/1, Batch 81/100, Loss: 0.4131
+Training, Epoch 1/1, Batch 82/100, Loss: 0.4346
+Training, Epoch 1/1, Batch 83/100, Loss: 0.4873
+Training, Epoch 1/1, Batch 84/100, Loss: 0.4657
+Training, Epoch 1/1, Batch 85/100, Loss: 0.3630
+Training, Epoch 1/1, Batch 86/100, Loss: 0.4803
+Training, Epoch 1/1, Batch 87/100, Loss: 0.4198
+Training, Epoch 1/1, Batch 88/100, Loss: 0.4305
+Training, Epoch 1/1, Batch 89/100, Loss: 0.3676
+Training, Epoch 1/1, Batch 90/100, Loss: 0.3967
+Training, Epoch 1/1, Batch 91/100, Loss: 0.3894
+Training, Epoch 1/1, Batch 92/100, Loss: 0.4543
+Training, Epoch 1/1, Batch 93/100, Loss: 0.2960
+Training, Epoch 1/1, Batch 94/100, Loss: 0.3191
+Training, Epoch 1/1, Batch 95/100, Loss: 0.4707
+Training, Epoch 1/1, Batch 96/100, Loss: 0.3126
+Training, Epoch 1/1, Batch 97/100, Loss: 0.3438
+Training, Epoch 1/1, Batch 98/100, Loss: 0.6264
+Training, Epoch 1/1, Batch 99/100, Loss: 0.5235
+Training, Epoch 1/1, Batch 100/100, Loss: 0.5533
+Validation, Epoch 1/1, Batch 1/10, Loss: 0.3894
+Validation, Epoch 1/1, Batch 2/10, Loss: 0.3236
+Validation, Epoch 1/1, Batch 3/10, Loss: 0.5089
+Validation, Epoch 1/1, Batch 4/10, Loss: 0.4793
+Validation, Epoch 1/1, Batch 5/10, Loss: 0.3028
+Validation, Epoch 1/1, Batch 6/10, Loss: 0.3388
+Validation, Epoch 1/1, Batch 7/10, Loss: 0.4560
+Validation, Epoch 1/1, Batch 8/10, Loss: 0.3015
+Validation, Epoch 1/1, Batch 9/10, Loss: 0.4358
+Validation, Epoch 1/1, Batch 10/10, Loss: 0.5597
+Epoch 1/1, Train Loss: 0.4309, Val Loss: 0.4096
+Model saved to weights/ChestMNIST_diffusion_model.pth
+Generating samples for ChestMNIST...
+Traceback (most recent call last):
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/project/medmnist_diffusion_foundation/main.py", line 68, in <module>
+    train_and_sample_model(args.dataset_name, args.device)
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/project/medmnist_diffusion_foundation/main.py", line 59, in train_and_sample_model
+    generate_samples(diffusion_model, test_dataloader=test_dataloader, num_steps=num_steps, output_path=output_path)
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/project/medmnist_diffusion_foundation/sample.py", line 29, in generate_samples
+    x_t_all = diffusion_model.sample_reverse_process(x_T, timesteps, sampler='euler', return_all=False, y=y)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/source/gmi/gmi/diffusion/core.py", line 83, in sample_reverse_process
+    return reverse_SDE.sample(x_t, timesteps, sampler, return_all, verbose)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/source/gmi/gmi/sde/sde.py", line 126, in sample
+    x = self._sample_step(x, t, dt, sampler=sampler, last_step=last_step).detach()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/source/gmi/gmi/sde/sde.py", line 160, in _sample_step
+    return self._sample_step_euler(x, t, dt, last_step=last_step)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/source/gmi/gmi/sde/sde.py", line 193, in _sample_step_euler
+    _f = self.f(x, t)
+         ^^^^^^^^^^^^
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/source/gmi/gmi/sde/sde.py", line 338, in _f_star
+    return _f(x, t) - div_GG_T - GG_T(score_estimator(x, t))
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/source/gmi/gmi/sde/sde.py", line 370, in score_estimator
+    mu_t = mean_estimator(x, t)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/source/gmi/gmi/diffusion/core.py", line 75, in mean_estimator
+    return self.predict_x_0(x_t, t, y)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/source/gmi/gmi/diffusion/core.py", line 107, in predict_x_0
+    x_0_pred =  self.diffusion_backbone(x_t, t, y)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/local/PARTNERS/mt1178/miniconda3/envs/medmnist_diffusion_foundation_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/local/PARTNERS/mt1178/miniconda3/envs/medmnist_diffusion_foundation_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/source/gmi/gmi/diffusion/core.py", line 244, in forward
+    x_t_embedding = self.x_t_encoder(x_t)
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/local/PARTNERS/mt1178/miniconda3/envs/medmnist_diffusion_foundation_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/local/PARTNERS/mt1178/miniconda3/envs/medmnist_diffusion_foundation_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/IRB2021P002249-DATA/matthew.tivnan/source/gmi/gmi/networks/simplecnn.py", line 73, in forward
+    return self.model(x)
+           ^^^^^^^^^^^^^
+  File "/home/local/PARTNERS/mt1178/miniconda3/envs/medmnist_diffusion_foundation_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/local/PARTNERS/mt1178/miniconda3/envs/medmnist_diffusion_foundation_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/local/PARTNERS/mt1178/miniconda3/envs/medmnist_diffusion_foundation_env/lib/python3.12/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/local/PARTNERS/mt1178/miniconda3/envs/medmnist_diffusion_foundation_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/local/PARTNERS/mt1178/miniconda3/envs/medmnist_diffusion_foundation_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/local/PARTNERS/mt1178/miniconda3/envs/medmnist_diffusion_foundation_env/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/local/PARTNERS/mt1178/miniconda3/envs/medmnist_diffusion_foundation_env/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+           ^^^^^^^^^
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cuda:3! (when checking argument for argument weight in method wrapper_CUDA__cudnn_convolution)

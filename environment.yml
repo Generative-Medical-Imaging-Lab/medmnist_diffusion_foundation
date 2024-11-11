@@ -1,0 +1,22 @@
+name: medmnist_diffusion_foundation_env
+channels:
+  - defaults
+  - nvidia/label/cuda-12.4.1
+dependencies:
+  - python=3.12
+  - pip
+  - git
+  - ffmpeg
+  - cuda-toolkit
+  - pip:
+      - numpy
+      - matplotlib
+      - nibabel
+      - pydicom
+      - torch==2.0.1+cu124 --index-url https://download.pytorch.org/whl/cu124
+      - torchvision==0.15.2+cu124 --index-url https://download.pytorch.org/whl/cu124
+      - torchaudio==2.0.1+cu124 --index-url https://download.pytorch.org/whl/cu124
+      - torch-ema
+      - diffusers
+      - git+https://github.com/Generative-Medical-Imaging-Lab/gmi.git
+      - git+https://github.com/MedMNIST/MedMNIST.git@8cce68f261f993bd0450edc0200498a0691362c2
