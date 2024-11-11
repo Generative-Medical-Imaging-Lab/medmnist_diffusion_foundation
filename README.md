@@ -1,4 +1,4 @@
-# MedMNIST Diffusion Foundation
+# MedMNISTDiffusion: A Foundational Generative Model for Medical Imaging
 
 This project implements a diffusion model for various datasets from the [MedMNIST collection](https://medmnist.com/). The code is structured to support training, sampling, and evaluating diffusion-based synthetic data generation for multiple medical imaging datasets. The project includes optional Weights & Biases logging for monitoring training metrics and supports easy integration with different MedMNIST datasets.
 
